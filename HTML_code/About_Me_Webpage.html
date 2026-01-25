@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- !DOCTYPE html tells browser this is using HTML5 -->
+<!-- HEADER/DISCLAIMER
+ 
+Project:  Project1-About Me
+Name: Nicholas Fontana
+Submitted: 8/26/21
+ 
+I declare that the following source code was written by me, or provided
+by the instructor for this project. I understand that copying source
+code from any other source, providing source code to another student, 
+or leaving my code on a public web site constitutes cheating.
+I acknowledge that  If I am found in violation of this policy this may result
+in a zero grade, a permanent record on file and possibly immediate failure of the class.
+ 
+Reflection (1-2 paragraphs): After completing this assignment, I understand the HTML structure a lot better. 
+I was able to see how simple the tags are and how the CSS page can interact with the main document. 
+I also learned how to make tables and format them properly.
+
+I had some troubles in this assignment with some of the more advanced things.
+For instance, getting the colors on the table to show up properly, and aligning the image to the right side of the page.
+Unexpectedly, one of the biggest challenges wasn't the code at all, it was uploading the image of myself from my phone, which didn't want to work with me.
+Overall, I think the page turned out pretty good.
+ 
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>About Nicholas Fontana</title>
+    <link rel="stylesheet" href="About_Me_Webpage_Main.css" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>About Nicholas Fontana</h1>
+        </header>
+            <section>
+                <figure style="float:right; margin:0 0 1rem 1rem;">
+                    <img src="image1.jpg" style="max-width:500px;max-height:500px;width:auto;height:auto;" />
+                </figure>
+            </section>
+        <section>
+            <h2><strong>Personal Info:</strong></h2>
+            <ul>
+                <li>Computer Science Major</li>
+                <li>Pleasant Grove High, 2022</li>
+                <li>4th Year</li>
+                <li>Cookie Dough Ice Cream</li>
+            </ul>
+        </section>
+
+
+        <section>
+            <h2>My five favorite books</h2>
+            <ul>
+                <li><em>Heir to the Empire</em> <span class="author"><a href="https://en.wikipedia.org/wiki/Timothy_Zahn">Timothy Zahn</a></span></li>
+                <li><em>Fellowship of the Ring</em> <span class="author"><a href="https://en.wikipedia.org/wiki/J._R._R._Tolkien">J R R Tolkien</a></span></li>
+                <li><em>Fahrenheit 451</em> <span class="author"><a href="https://en.wikipedia.org/wiki/Ray_Bradbury">Ray Bradbury</a></span></li>
+                <li><em>12 Years a Slave</em> <span class="author"><a href="https://en.wikipedia.org/wiki/Solomon_Northup">Solomon Northup</a></span></li>
+                <li><em>Divergent</em> <span class="author"><a href="https://en.wikipedia.org/wiki/Veronica_Roth">Veronica Roth</a></span></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="haiku-title">Haiku Haiku</h2>
+            <p class="haiku">This haiku is about haikus</p>
+            <p class="haiku">
+                First, five sylables<br>
+                Then its followed by seven<br>
+                Then it ends with five
+            </p>
+        </section>
+
+        <section>
+            <h2>My personal interest</h2>
+            <p>One of my favorite interests is Star Wars, and not limited to the movies. 
+                It's a dead giveaway that I enjoy this series since one of my favorite books is Heir to the Empire by Timothy Zahn. 
+                I enjoy the lore and world and keep up with new shows, movies, and games whenever they come out.
+                The movies and shows are pretty good for the most part, and I enjoy the world and design of the ships, plannets, and aliens.</p>
+            <p>Another big interest of mine is Dungeons and Dragons. 
+                I have played it since high school and have continued to play it through college.
+                The biggest thing I like about it is the way you can tell stories with your friends in a collaborative way.
+                I have played as a Dungeon Master and a player, and have had a lot of fun as both roles. 
+                I prefer being a Dungeon Master since I like to build the story around the characters, and make their actions have consequences.</p>
+            <p>I am really big into video games, it's my favorite pass time. 
+                Some of my favorite game series include Half-Life & Portal, Frostpunk, and Red Dead Redemption. 
+                I play a variety of other games, and it changes every so often, but I mainly enjoy the story and world of the games I play. 
+                I also enjoy a good challenge of strategy and tactics in games, and I enjoy good horror games like Phasmophobia, Dead Space, and Fears to Fathom.</p>
+        </section>
+        <section>
+            <h2>Class Schedule</h2>
+            <table border="1" cellspacing="1" cellpadding="3">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><th>8:00 - 8:50</th><td class="calc2">Calculus 2</td><td class="calc2">Calculus 2</td><td class="calc2">Calculus 2</td><td class="calc2">Calculus 2</td><td></td></tr>
+                    <tr><th>9:00 - 9:50</th><td class="eng-phys">Engineering Physics 2</td><td class="eng-phys">Engineering Physics 2</td><td class="eng-phys">Engineering Physics 2</td><td class="eng-phys">Engineering Physics 2</td><td class="eng-phys">Engineering Physics 2</td></tr>
+                    <tr><th>10:00 - 10:50</th><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><th>11:00 - 11:50</th><td></td><td></td><td rowspan="2" class="eng-phys-lab">Engineering Physics 2 Lab</td><td></td><td></td></tr>
+                    <tr><th>12:00 - 12:50</th><td></td><td></td><td></td><td></td></tr>
+                    <tr><th>1:00 - 1:50</th><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><th>2:00 - 2:50</th><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><th>3:00 - 3:50</th><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><th>4:00 - 4:29</th><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><th>4:30 - 4:59</th><td rowspan="2" class="scripting">Scripting Essentials</td><td></td><td></td><td></td><td></td></tr>
+                    <tr><th>5:00 - 5:45</th><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+</body>
+
+</html>

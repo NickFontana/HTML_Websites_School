@@ -1,0 +1,37 @@
+body {
+	font-family: 'Times New Roman', Times, serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+table, th, td {
+	font-family: inherit;
+}
+
+
+.calc2 { background: #fff4bf; }
+.eng-phys { background: #dbeafe; }
+.eng-phys-lab { background: #dcfce7; }
+.scripting { background: #fde2f0; }
+
+
+.author a {
+	color: inherit;
+	text-decoration: none;
+	pointer-events: none;
+}
+.author:hover a {
+	color: #1a73e8;
+	text-decoration: underline;
+	pointer-events: auto;
+}
+
+.haiku {
+	text-align: center;
+}
+
+.haiku-title {
+	text-align: center;
+}
+
+
