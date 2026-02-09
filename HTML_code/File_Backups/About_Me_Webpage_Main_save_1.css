@@ -12,34 +12,18 @@ body {
 
 table, th, td {
 	font-family: inherit;
-	border: none;
-	border-collapse: collapse;
 }
 
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th {
-	background-color: #4b5563; 
-}
 
-tbody tr:nth-child(even) td,
-tbody tr:nth-child(even) th {
-	background-color: #374151; 
-}
-
-table th,
-table td {
-	color: #ffffff;
-}
-
-td.calc2 { background: #C2410C !important; }
-td.eng-phys { background: #1E3A8A !important; }
-td.eng-phys-lab { background: #166534 !important; }
-td.scripting { background: #7F1D1D !important; }
+.calc2 { background: #fff4bf; }
+.eng-phys { background: #dbeafe; }
+.eng-phys-lab { background: #dcfce7; }
+.scripting { background: #fde2f0; }
 
 .profile-figure {
+	float: left;
+	margin: 0 2rem 1rem 0;
 	width: 500px;
-	margin: 1.5rem 0 1rem 0;
-	order: 2;
 }
 .profile-image {
 	max-width: 500px;
@@ -50,12 +34,10 @@ td.scripting { background: #7F1D1D !important; }
 }
 
 .with-profile {
-	display: flex;
-	flex-direction: column;
 }
 
 .profile-content {
-	order: 1;
+	overflow: hidden;
 }
 
 .author a {
@@ -105,6 +87,8 @@ p {
 .personal-interest {
 	clear: left;
 	margin-top: 1.5rem;
+}
+.personal-interest p {
 }
 
 

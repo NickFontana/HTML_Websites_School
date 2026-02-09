@@ -13,14 +13,7 @@ or leaving my code on a public web site constitutes cheating.
 I acknowledge that  If I am found in violation of this policy this may result
 in a zero grade, a permanent record on file and possibly immediate failure of the class.
  
-Reflection (1-2 paragraphs): After completing this assignment, I understand the HTML structure a lot better. 
-I was able to see how simple the tags are and how the CSS page can interact with the main document. 
-I also learned how to make tables and format them properly.
-
-I had some troubles in this assignment with some of the more advanced things.
-For instance, getting the colors on the table to show up properly, and aligning the image to the right side of the page.
-Unexpectedly, one of the biggest challenges wasn't the code at all, it was uploading the image of myself from my phone, which didn't want to work with me.
-Overall, I think the page turned out pretty good.
+Reflection (1-2 paragraphs): 
  
 -->
 <html lang="en">
@@ -36,11 +29,11 @@ Overall, I think the page turned out pretty good.
         <header>
             <h1>About Nicholas Fontana</h1>
         </header>
-            <section>
-                <figure style="float:right; margin:0 0 1rem 1rem;">
-                    <img src="image1.jpg" style="max-width:500px;max-height:500px;width:auto;height:auto;" />
+        <div class="with-profile">
+                <figure class="profile-figure">
+                    <img class="profile-image" src="image1.jpg" />
                 </figure>
-            </section>
+        <div class="profile-content">
         <section>
             <h2><strong>Personal Info:</strong></h2>
             <ul>
@@ -62,6 +55,7 @@ Overall, I think the page turned out pretty good.
                 <li><em>Divergent</em> <span class="author"><a href="https://en.wikipedia.org/wiki/Veronica_Roth">Veronica Roth</a></span></li>
             </ul>
         </section>
+        </div>
 
         <section>
             <h2 class="haiku-title">Haiku Haiku</h2>
@@ -73,7 +67,7 @@ Overall, I think the page turned out pretty good.
             </p>
         </section>
 
-        <section>
+        <section class="personal-interest">
             <h2>My personal interest</h2>
             <p>One of my favorite interests is Star Wars, and not limited to the movies. 
                 It's a dead giveaway that I enjoy this series since one of my favorite books is Heir to the Empire by Timothy Zahn. 
